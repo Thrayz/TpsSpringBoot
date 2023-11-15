@@ -6,7 +6,7 @@ import org.springframework.boot.autoconfigure.domain.EntityScan;
 
 
 @SpringBootApplication
-@EntityScan("Tp4.Thymeleaf.Entity")
+@EntityScan("Tp4.Thymeleaf")
 public class ThymeleafApplication {
 
 	public static void main(String[] args) {

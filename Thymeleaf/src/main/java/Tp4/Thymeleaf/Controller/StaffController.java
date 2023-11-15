@@ -6,7 +6,7 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
-import Tp4.Thymeleaf.Entity.Staff;
+import Tp4.Thymeleaf.Staff;
 import Tp4.Thymeleaf.Service.StaffService;
 @Controller
 public class StaffController {

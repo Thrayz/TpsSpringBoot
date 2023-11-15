@@ -2,7 +2,7 @@ package Tp4.Thymeleaf.Service;
 import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import Tp4.Thymeleaf.Entity.Staff;
+import Tp4.Thymeleaf.Staff;
 import Tp4.Thymeleaf.Repository.StaffRepo;
 @Service
 public class StaffServiceImpl implements StaffService {

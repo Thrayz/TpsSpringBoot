@@ -1,4 +1,4 @@
-package Tp4.Thymeleaf.Entity;
+package Tp4.Thymeleaf;
 
 import lombok.Data;
 
@@ -6,8 +6,9 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
-@Data
+
 @Entity
+@Data
 public class Staff {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
